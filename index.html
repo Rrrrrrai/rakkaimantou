@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fffdfb">
+  <title>For P'Mantou :p</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <span></span>
+      <span></span>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">SOMETHING SPECIAL FOR</p>
+      <h1> P'Mantouuu<span>,</span></h1>
+      <p class="subtitle">I made a little something for u na </p>
+
+      <div class="bouquet-stage">
+        <img class="bouquet" src="images/bouquet.jpg" alt="A hand-drawn bouquet for Mantou">
+
+        <!-- The tiny envelope hangs beside the pink bow -->
+        <span class="hanging-string" aria-hidden="true"></span>
+        <button class="hanging-envelope" id="openEnvelope" aria-label="Open your letter">
+          <span class="mini-flap"></span>
+          <span class="mini-heart">♡</span>
+          <span class="mini-label">for you</span>
+        </button>
+      </div>
+
+      <p class="hint">Try clicking</p>
+      <p class="tap-note">♡</p>
+    </section>
+
+    <footer>by nong Bam khon man</footer>
+  </main>
+
+  <!-- Letter experience -->
+  <div class="overlay" id="letterOverlay" aria-hidden="true">
+    <button class="overlay-close" id="closeEnvelope" aria-label="Close letter">×</button>
+
+    <div class="letter-scene">
+      <div class="letter-paper" id="letterPaper">
+        <article class="paper-inner">
+          <p class="letter-kicker"></p>
+          <div class="letter-heart">♡</div>
+          <h2>To kai Mantou</h2>
+
+          <!-- Edit the paragraphs below to write your own message -->
+          <div class="letter-message">
+            <p>from racha Bam na</p>
+            <p>rak Mantou wa</p>
+            <p>chop u mak mak loey a</p>
+            <p>yoo duay kan nan nan dai pa?</p>
+          </div>
+
+          
+        </article>
+      </div>
+
+      <div class="big-envelope" id="bigEnvelope">
+        <div class="envelope-back"></div>
+        <div class="envelope-left"></div>
+        <div class="envelope-right"></div>
+        <div class="envelope-front"></div>
+        <div class="envelope-flap"></div>
+        <div class="wax-seal">♡</div>
+      </div>
+    </div>
+
+    <p class="overlay-caption" id="overlayCaption">ขอจองให้ยิ้มหวาน</p>
+    <p class="close-help">tap × to close</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
